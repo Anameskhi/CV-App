@@ -59,6 +59,10 @@
                 opacity: 0.9;
 
             }
+
+            .projects__btn {
+                opacity: 1;
+            }
         }
     }
 
@@ -76,13 +80,16 @@
 
     &__btn {
         opacity: 0;
-        column-rule: $secondary-color;
+        color: black;
         @include transition-ease;
 
         &:hover {
-            color: $secondary-color
+            color: $color-white
         }
     }
-
+    .social-icons {
+        display: flex;
+        flex-direction: column ;
+    }
 
 }
